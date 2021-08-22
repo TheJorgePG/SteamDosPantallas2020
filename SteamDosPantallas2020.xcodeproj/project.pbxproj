@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DBE42423E1A73500F9CD5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBE42323E1A73500F9CD5B /* AppDelegate.swift */; };
+		84DBE42623E1A73500F9CD5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBE42523E1A73500F9CD5B /* SceneDelegate.swift */; };
+		84DBE42B23E1A73500F9CD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DBE42923E1A73500F9CD5B /* Main.storyboard */; };
+		84DBE42D23E1A73600F9CD5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DBE42C23E1A73600F9CD5B /* Assets.xcassets */; };
+		84DBE43023E1A73600F9CD5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DBE42E23E1A73600F9CD5B /* LaunchScreen.storyboard */; };
+		84DBE43B23E1A73600F9CD5B /* SteamDosPantallas2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBE43A23E1A73600F9CD5B /* SteamDosPantallas2020Tests.swift */; };
+		84DBE44623E1A73600F9CD5B /* SteamDosPantallas2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBE44523E1A73600F9CD5B /* SteamDosPantallas2020UITests.swift */; };
+		84DBE45423E1A97F00F9CD5B /* ClassGameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBE45323E1A97F00F9CD5B /* ClassGameList.swift */; };
+		84DBE45623E1A9BA00F9CD5B /* ClassDetailGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBE45523E1A9BA00F9CD5B /* ClassDetailGame.swift */; };
+		84DBE45823E1AA4D00F9CD5B /* ClassCeldaGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBE45723E1AA4D00F9CD5B /* ClassCeldaGame.swift */; };
+		84DBE45A23E1AFE500F9CD5B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBE45923E1AFE500F9CD5B /* Result.swift */; };
+		84DC1B8823E30160003E3281 /* ResultDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC1B8723E30160003E3281 /* ResultDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DBE43723E1A73600F9CD5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DBE41823E1A73500F9CD5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DBE41F23E1A73500F9CD5B;
+			remoteInfo = SteamDosPantallas2020;
+		};
+		84DBE44223E1A73600F9CD5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DBE41823E1A73500F9CD5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DBE41F23E1A73500F9CD5B;
+			remoteInfo = SteamDosPantallas2020;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84DBE42023E1A73500F9CD5B /* SteamDosPantallas2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteamDosPantallas2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DBE42323E1A73500F9CD5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84DBE42523E1A73500F9CD5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84DBE42A23E1A73500F9CD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DBE42C23E1A73600F9CD5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DBE42F23E1A73600F9CD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DBE43123E1A73600F9CD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DBE43623E1A73600F9CD5B /* SteamDosPantallas2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteamDosPantallas2020Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DBE43A23E1A73600F9CD5B /* SteamDosPantallas2020Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamDosPantallas2020Tests.swift; sourceTree = "<group>"; };
+		84DBE43C23E1A73600F9CD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DBE44123E1A73600F9CD5B /* SteamDosPantallas2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteamDosPantallas2020UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DBE44523E1A73600F9CD5B /* SteamDosPantallas2020UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamDosPantallas2020UITests.swift; sourceTree = "<group>"; };
+		84DBE44723E1A73700F9CD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DBE45323E1A97F00F9CD5B /* ClassGameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassGameList.swift; sourceTree = "<group>"; };
+		84DBE45523E1A9BA00F9CD5B /* ClassDetailGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailGame.swift; sourceTree = "<group>"; };
+		84DBE45723E1AA4D00F9CD5B /* ClassCeldaGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCeldaGame.swift; sourceTree = "<group>"; };
+		84DBE45923E1AFE500F9CD5B /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		84DC1B8723E30160003E3281 /* ResultDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DBE41D23E1A73500F9CD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DBE43323E1A73600F9CD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DBE43E23E1A73600F9CD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DBE41723E1A73500F9CD5B = {
+			isa = PBXGroup;
+			children = (
+				84DBE42223E1A73500F9CD5B /* SteamDosPantallas2020 */,
+				84DBE43923E1A73600F9CD5B /* SteamDosPantallas2020Tests */,
+				84DBE44423E1A73600F9CD5B /* SteamDosPantallas2020UITests */,
+				84DBE42123E1A73500F9CD5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DBE42123E1A73500F9CD5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DBE42023E1A73500F9CD5B /* SteamDosPantallas2020.app */,
+				84DBE43623E1A73600F9CD5B /* SteamDosPantallas2020Tests.xctest */,
+				84DBE44123E1A73600F9CD5B /* SteamDosPantallas2020UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DBE42223E1A73500F9CD5B /* SteamDosPantallas2020 */ = {
+			isa = PBXGroup;
+			children = (
+				84DBE42323E1A73500F9CD5B /* AppDelegate.swift */,
+				84DBE42523E1A73500F9CD5B /* SceneDelegate.swift */,
+				84DBE42923E1A73500F9CD5B /* Main.storyboard */,
+				84DBE42C23E1A73600F9CD5B /* Assets.xcassets */,
+				84DBE42E23E1A73600F9CD5B /* LaunchScreen.storyboard */,
+				84DBE43123E1A73600F9CD5B /* Info.plist */,
+				84DBE45323E1A97F00F9CD5B /* ClassGameList.swift */,
+				84DBE45523E1A9BA00F9CD5B /* ClassDetailGame.swift */,
+				84DBE45723E1AA4D00F9CD5B /* ClassCeldaGame.swift */,
+				84DBE45923E1AFE500F9CD5B /* Result.swift */,
+				84DC1B8723E30160003E3281 /* ResultDetail.swift */,
+			);
+			path = SteamDosPantallas2020;
+			sourceTree = "<group>";
+		};
+		84DBE43923E1A73600F9CD5B /* SteamDosPantallas2020Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84DBE43A23E1A73600F9CD5B /* SteamDosPantallas2020Tests.swift */,
+				84DBE43C23E1A73600F9CD5B /* Info.plist */,
+			);
+			path = SteamDosPantallas2020Tests;
+			sourceTree = "<group>";
+		};
+		84DBE44423E1A73600F9CD5B /* SteamDosPantallas2020UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84DBE44523E1A73600F9CD5B /* SteamDosPantallas2020UITests.swift */,
+				84DBE44723E1A73700F9CD5B /* Info.plist */,
+			);
+			path = SteamDosPantallas2020UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DBE41F23E1A73500F9CD5B /* SteamDosPantallas2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DBE44A23E1A73700F9CD5B /* Build configuration list for PBXNativeTarget "SteamDosPantallas2020" */;
+			buildPhases = (
+				84DBE41C23E1A73500F9CD5B /* Sources */,
+				84DBE41D23E1A73500F9CD5B /* Frameworks */,
+				84DBE41E23E1A73500F9CD5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteamDosPantallas2020;
+			productName = SteamDosPantallas2020;
+			productReference = 84DBE42023E1A73500F9CD5B /* SteamDosPantallas2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DBE43523E1A73600F9CD5B /* SteamDosPantallas2020Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DBE44D23E1A73700F9CD5B /* Build configuration list for PBXNativeTarget "SteamDosPantallas2020Tests" */;
+			buildPhases = (
+				84DBE43223E1A73600F9CD5B /* Sources */,
+				84DBE43323E1A73600F9CD5B /* Frameworks */,
+				84DBE43423E1A73600F9CD5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DBE43823E1A73600F9CD5B /* PBXTargetDependency */,
+			);
+			name = SteamDosPantallas2020Tests;
+			productName = SteamDosPantallas2020Tests;
+			productReference = 84DBE43623E1A73600F9CD5B /* SteamDosPantallas2020Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84DBE44023E1A73600F9CD5B /* SteamDosPantallas2020UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DBE45023E1A73700F9CD5B /* Build configuration list for PBXNativeTarget "SteamDosPantallas2020UITests" */;
+			buildPhases = (
+				84DBE43D23E1A73600F9CD5B /* Sources */,
+				84DBE43E23E1A73600F9CD5B /* Frameworks */,
+				84DBE43F23E1A73600F9CD5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DBE44323E1A73600F9CD5B /* PBXTargetDependency */,
+			);
+			name = SteamDosPantallas2020UITests;
+			productName = SteamDosPantallas2020UITests;
+			productReference = 84DBE44123E1A73600F9CD5B /* SteamDosPantallas2020UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DBE41823E1A73500F9CD5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = net.azarquiel;
+				TargetAttributes = {
+					84DBE41F23E1A73500F9CD5B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					84DBE43523E1A73600F9CD5B = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 84DBE41F23E1A73500F9CD5B;
+					};
+					84DBE44023E1A73600F9CD5B = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 84DBE41F23E1A73500F9CD5B;
+					};
+				};
+			};
+			buildConfigurationList = 84DBE41B23E1A73500F9CD5B /* Build configuration list for PBXProject "SteamDosPantallas2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DBE41723E1A73500F9CD5B;
+			productRefGroup = 84DBE42123E1A73500F9CD5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DBE41F23E1A73500F9CD5B /* SteamDosPantallas2020 */,
+				84DBE43523E1A73600F9CD5B /* SteamDosPantallas2020Tests */,
+				84DBE44023E1A73600F9CD5B /* SteamDosPantallas2020UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DBE41E23E1A73500F9CD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DBE43023E1A73600F9CD5B /* LaunchScreen.storyboard in Resources */,
+				84DBE42D23E1A73600F9CD5B /* Assets.xcassets in Resources */,
+				84DBE42B23E1A73500F9CD5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DBE43423E1A73600F9CD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DBE43F23E1A73600F9CD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DBE41C23E1A73500F9CD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DBE45A23E1AFE500F9CD5B /* Result.swift in Sources */,
+				84DBE42423E1A73500F9CD5B /* AppDelegate.swift in Sources */,
+				84DBE42623E1A73500F9CD5B /* SceneDelegate.swift in Sources */,
+				84DBE45423E1A97F00F9CD5B /* ClassGameList.swift in Sources */,
+				84DBE45623E1A9BA00F9CD5B /* ClassDetailGame.swift in Sources */,
+				84DC1B8823E30160003E3281 /* ResultDetail.swift in Sources */,
+				84DBE45823E1AA4D00F9CD5B /* ClassCeldaGame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DBE43223E1A73600F9CD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DBE43B23E1A73600F9CD5B /* SteamDosPantallas2020Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DBE43D23E1A73600F9CD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DBE44623E1A73600F9CD5B /* SteamDosPantallas2020UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DBE43823E1A73600F9CD5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DBE41F23E1A73500F9CD5B /* SteamDosPantallas2020 */;
+			targetProxy = 84DBE43723E1A73600F9CD5B /* PBXContainerItemProxy */;
+		};
+		84DBE44323E1A73600F9CD5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DBE41F23E1A73500F9CD5B /* SteamDosPantallas2020 */;
+			targetProxy = 84DBE44223E1A73600F9CD5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DBE42923E1A73500F9CD5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DBE42A23E1A73500F9CD5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DBE42E23E1A73600F9CD5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DBE42F23E1A73600F9CD5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DBE44823E1A73700F9CD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84DBE44923E1A73700F9CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DBE44B23E1A73700F9CD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6LAC6TM48;
+				INFOPLIST_FILE = SteamDosPantallas2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.SteamDosPantallas2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DBE44C23E1A73700F9CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6LAC6TM48;
+				INFOPLIST_FILE = SteamDosPantallas2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.SteamDosPantallas2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84DBE44E23E1A73700F9CD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6LAC6TM48;
+				INFOPLIST_FILE = SteamDosPantallas2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.SteamDosPantallas2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SteamDosPantallas2020.app/SteamDosPantallas2020";
+			};
+			name = Debug;
+		};
+		84DBE44F23E1A73700F9CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6LAC6TM48;
+				INFOPLIST_FILE = SteamDosPantallas2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.SteamDosPantallas2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SteamDosPantallas2020.app/SteamDosPantallas2020";
+			};
+			name = Release;
+		};
+		84DBE45123E1A73700F9CD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6LAC6TM48;
+				INFOPLIST_FILE = SteamDosPantallas2020UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.SteamDosPantallas2020UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SteamDosPantallas2020;
+			};
+			name = Debug;
+		};
+		84DBE45223E1A73700F9CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6LAC6TM48;
+				INFOPLIST_FILE = SteamDosPantallas2020UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.SteamDosPantallas2020UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SteamDosPantallas2020;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DBE41B23E1A73500F9CD5B /* Build configuration list for PBXProject "SteamDosPantallas2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DBE44823E1A73700F9CD5B /* Debug */,
+				84DBE44923E1A73700F9CD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DBE44A23E1A73700F9CD5B /* Build configuration list for PBXNativeTarget "SteamDosPantallas2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DBE44B23E1A73700F9CD5B /* Debug */,
+				84DBE44C23E1A73700F9CD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DBE44D23E1A73700F9CD5B /* Build configuration list for PBXNativeTarget "SteamDosPantallas2020Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DBE44E23E1A73700F9CD5B /* Debug */,
+				84DBE44F23E1A73700F9CD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DBE45023E1A73700F9CD5B /* Build configuration list for PBXNativeTarget "SteamDosPantallas2020UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DBE45123E1A73700F9CD5B /* Debug */,
+				84DBE45223E1A73700F9CD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DBE41823E1A73500F9CD5B /* Project object */;
+}
